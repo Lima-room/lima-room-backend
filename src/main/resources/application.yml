@@ -16,9 +16,9 @@ spring:
   #  username: admin
   #  password: admin
   datasource: # Configuracion de base de datos
-      url: jdbc:mysql://${MYSQLHOST}:${MYSQLPORT}/${MYSQLDATABASE}
-      username: ${MYSQLUSER}
-      password: ${MYSQLPASSWORD}
+      url: jdbc:mysql://localhost:3306/db-emergentes
+      username: root
+      password: Lp3y9E6X
   # H2 config
   #jpa:
   #  database: h2
