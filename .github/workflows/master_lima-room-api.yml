@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'lima-room-api'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_88EE886F67CF4646AFED0465C8F7A58A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0F35B9D061004AA58FAD18AE15E22880 }}
           package: '*.jar'
