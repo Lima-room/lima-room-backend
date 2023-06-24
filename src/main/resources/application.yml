@@ -15,10 +15,10 @@ spring:
   #  url: jdbc:h2:file:~/db/roommate-db;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
   #  username: admin
   #  password: admin
-  datasource: # Configuracion de base de datos
-      url: jdbc:mysql://lima-room-api-server.mysql.database.azure.com:3306/lima-room-api-database?serverTimezone=UTC&sslmode=required&user=obetgrkobq&password=2240UEKW4G8B3RYG%24
-      username: obetgrkobq
-      password: 2240UEKW4G8B3RYG%24
+  datasource: # Configuration de base de datos
+      url: jdbc:mysql://lima-room-db-server.mysql.database.azure.com:3306/limaroomdb?useSSL=true
+      username: jack
+      password: Lp3y9E6X
 
   # H2 config
   #jpa:
